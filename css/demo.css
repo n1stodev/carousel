@@ -11,51 +11,6 @@ body{
   font-size: 15px;
   background: #eee;
 }
-.intro{
-   background: #fff;
-   padding: 60px 30px;
-   color: #333;
-   margin-bottom: 15px;
-   line-height: 1.5;
-   text-align: center;
-}
-.intro h1 {
-   font-size: 18pt;
-   padding-bottom: 15px;
-
-}
-.intro p{
-   font-size: 14px;
-}
-
-.action{
-   text-align: center;
-   display: block;
-   margin-top: 20px;
-}
-
-a.btn {
-  text-decoration: none;
-  color: #666;
-   border: 2px solid #666;
-   padding: 10px 15px;
-   display: inline-block;
-   margin-left: 5px;
-}
-a.btn:hover{
-   background: #666;
-   color: #fff;
-    transition: .3s;
--webkit-transition: .3s;
-}
-.btn:before{
-  font-family: FontAwesome;
-  font-weight: normal;
-  margin-right: 10px;
-}
-.github:before{content: "\f09b"}
-.down:before{content: "\f019"}
-.back:before{content:"\f112"}
 .credit{
     background: #fff;
     padding: 12px;
