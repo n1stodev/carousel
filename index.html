@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    <title>Image Slider in JavaScript Example</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/demo.css">
+  </head>
+  <body>
+ <header class="intro">
+ <h1>Image Slider in JavaScript Example</h1>
+ <p>Best Pure JavaScript  Images Slider.</p>
+ <div class="action">
+ <a href="https://www.codehim.com/carousel/image-slider-in-javascript-source-code/" title="Back to download and tutorial page" class="btn back">Back to Tutorial</a>
+ </div>
+ </header>
+ <main>
+  <div class="slider-container">
+    <div class="slides fade">
+        <div class="slider-numbers">1/4</div>
+        <div class="slider-image"><img src="https://image.ibb.co/kpmt3k/background_1.jpg" alt="background_1"></div>
+        <div class="slider-caption">Caption 1</div>
+    </div>
+    <div class="slides fade">
+        <div class="slider-numbers">2/4</div>
+        <div class="slider-image"><img src="https://image.ibb.co/mGxNw5/background_2.jpg" alt="background_2"></div>
+        <div class="slider-caption">Caption 2</div>
+    </div>
+    <div class="slides fade">
+        <div class="slider-numbers">3/4</div>
+        <div class="slider-image"><img src="https://image.ibb.co/gd5gpQ/background_3.jpg" alt="background_3"></div>
+        <div class="slider-caption">Caption 3</div>
+    </div>
+    <div class="slides fade">
+        <div class="slider-numbers">4/4</div>
+        <div class="slider-image"><img src="https://image.ibb.co/jOgXw5/background_4.jpg" alt="background_4"></div>
+        <div class="slider-caption">Caption 4</div>
+    </div>
+    <a class="prev" onclick="plusIndex(-1)">&#10094;</a>
+    <a class="next" onclick="plusIndex(+1)">&#10095;</a>
+
+    <div class="slider-bullets" id="slider-bullets">
+        <span class="dots" onclick="currentSlide(1)"></span>
+        <span class="dots" onclick="currentSlide(2)"></span>
+        <span class="dots" onclick="currentSlide(3)"></span>
+        <span class="dots" onclick="currentSlide(4)"></span>
+    </div>
+</div>
+ </main>
+  <footer class="credit">Developer: Nurillo Tojiakhmedov - <a title="FrontEndning ajoyib kodlari va ma'lumotlari" href="https://t.me/nurillo_tojiakhmedov" target="_blank">N1STO</a></footer>
+  <script src="./js/script.js"></script>
+   
+  </body>
+</html>
